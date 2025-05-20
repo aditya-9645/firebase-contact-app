@@ -19,7 +19,7 @@ const AddandUpdateContact = ({isOpen, onClose, isUpdate, contact}) => {
             });
         }catch(error){
             console.log(error);
-            toast.error("Contact could not be added!");
+            toast.error("Failed to add contact!");
         }
     }
 
